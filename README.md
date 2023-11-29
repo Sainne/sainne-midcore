@@ -17,6 +17,8 @@ You have a limited amount of lives when starting the game, represented by your m
   A more intuitive way of changing the configurable values of the datapack, like the starting amount of lives, whether to enable the sync of max hp with the lives, and other added features.
   #### Totem of undying nerfing
   A configurable percentage of failure for the totem of undying for balancing purposes, hypotetically, it would be possible to change it so for example the totem fails at saving from death 5% of the activations.
+  
+  Or make it so it gives certain debuff effects instead of buffs.
   #### Totem of undying buff
   It would be possible to configure the totem to save from void death(by teleport to near ground or to spawnpoint).
   </details>
