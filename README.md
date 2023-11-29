@@ -13,8 +13,10 @@ You have a limited amount of lives when starting the game, represented by your m
 
   #### Recovering lives and reviving players
   Have a method of gaining lives(should be quite difficult) and reviving dead players giving them 10 more lives(shoul be even more difficult and risky).
-  #### Dynamic Difficulty
-  Depending on your lives left, the game would be easier when at a lower amount, and harder at higher amounts(configurable/invertable)
-  #### Progressive Difficulty
-  Make a difficulty modifier dependent on game progression(obtained diamonds, nether, entered stronghold, defeated wither, defeated enderdragon), and locking certain items behind challenges(elytra,mending,netherite,other OP items).
-</details>
+  #### Configuration book/menu
+  A more intuitive way of changing the configurable values of the datapack, like the starting amount of lives, whether to enable the sync of max hp with the lives, and other added features.
+  #### Totem of undying nerfing
+  A configurable percentage of failure for the totem of undying for balancing purposes, hypotetically, it would be possible to change it so for example the totem fails at saving from death 5% of the activations.
+  #### Totem of undying buff
+  It would be possible to configure the totem to save from void death(by teleport to near ground or to spawnpoint).
+  </details>
