@@ -3,6 +3,8 @@
 scoreboard objectives remove sainne.midcore.lives
 scoreboard objectives remove sainne.midcore.death_count
 scoreboard objectives remove sainne.midcore.global
+scoreboard objectives remove sainne.midcore.totem_use
+scoreboard objectives remove sainne.midcore.totem_roll
 #Reset attributes
 execute as @a run attribute @s minecraft:generic.max_health base set 20
 #Advancement reset
