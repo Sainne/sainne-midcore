@@ -4,4 +4,4 @@ execute unless score installed sainne.midcore.global matches 1 run function sain
 
 #Clear the update schedule, and schedule the update once again
 schedule function sainne.midcore:update/10tick 10t replace
-schedule function sainne.midcore:update/5tick 5t replace 
+schedule function sainne.midcore:update/4tick 4t replace 

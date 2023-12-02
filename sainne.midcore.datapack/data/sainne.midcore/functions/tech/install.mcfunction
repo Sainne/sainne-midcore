@@ -11,6 +11,7 @@ team modify ghosts color gray
 scoreboard players set starting_lives sainne.midcore.global 30
 scoreboard players set lives_equals_maxhealth sainne.midcore.global 1
 scoreboard players set totem_fail_chance sainne.midcore.global 5
+scoreboard players set totem_saves_from_void sainne.midcore.global 1
 
 #Run first join as every player
 execute as @a at @s run function sainne.midcore:event/first_join
