@@ -18,11 +18,13 @@ The totem will save a player from void if successful.
 
 <details>
   <summary>CLICK</summary>
+  
   #### Recommended Scenarios
   Different scenarios for quick configuration and play.
   
   <details>
    <summary>Planned Scenarios</summary>
+   
    ##### 3 strikes... You're out!
    * 3 lives
    * Max health does not sync with lives
