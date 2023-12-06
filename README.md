@@ -48,7 +48,4 @@ The totem will save a player from void if successful.
    * Max health syncs with lives
    
   </details>
-
-  #### Recovering lives and reviving players
-  Have a method of gaining lives(should be quite difficult) and reviving dead players giving them 10(config) more lives(shoul be even more difficult and risky).</details>
 </details> 
