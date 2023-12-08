@@ -2,7 +2,7 @@
 A '<b>mid</b>' minecraft datapack about limited lives, max health and being a mid-point of Survival and Hardcore.
 ### Features
 All of these are configurable ingame.
-#### Limited lives(default: 30)
+#### Limited lives(default: 10)
 You have a limited amount of lives when starting the game, making death more of a danger than in normal survival minecraft, but not as punishing as Hardcore would be.
 #### Max Hp represent lives(default:1(True))
 Your maximum health represents the amount of lives you have left.

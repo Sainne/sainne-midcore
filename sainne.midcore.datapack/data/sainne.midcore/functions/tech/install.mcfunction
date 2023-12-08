@@ -8,7 +8,7 @@ team add ghosts {"text":"☠Ghosts☠"}
 team modify ghosts color gray
 
 #Default values
-scoreboard players set starting_lives sainne.midcore.global 30
+scoreboard players set starting_lives sainne.midcore.global 10
 scoreboard players set lives_equals_maxhealth sainne.midcore.global 1
 scoreboard players set totem_fail_chance sainne.midcore.global 5
 scoreboard players set totem_saves_from_void sainne.midcore.global 1
