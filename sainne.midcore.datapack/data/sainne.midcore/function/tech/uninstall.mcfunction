@@ -15,5 +15,5 @@ execute as @a[team=ghosts] run gamemode survival
 team remove ghosts
 
 #Announce the scoreboards, teams have been removed so everything should be back to vanilla.
-tellraw @s {"text":"It's now safe to delete the \'Sainne\'s Midcore\' datapack!","color":"dark_red"}
+tellraw @s {"text":"It's now safe to delete the 'Sainne's Midcore' datapack!","color":"dark_red"}
 

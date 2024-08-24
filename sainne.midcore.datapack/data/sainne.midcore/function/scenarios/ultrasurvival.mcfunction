@@ -4,3 +4,4 @@ advancement revoke @a only sainne.midcore:first_join
 tellraw @a {"text":"UltraSurvival Activated!","color":"blue"}
 gamerule naturalRegeneration false
 playsound minecraft:block.end_portal.spawn player @a ~ ~ ~ .3 1.7 .3
+function sainne.midcore:.scenarios

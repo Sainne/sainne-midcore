@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "sainne.midcore.datapack:event/first_join"
+    "function": "sainne.midcore:event/first_join"
   }
 }
