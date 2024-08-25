@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "A": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 1,
+    "components": {
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 2,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:absorption",
+              "amplifier": 155,
+              "duration": -1,
+              "ambient": true,
+              "show_particles": false,
+              "show_icon": false
+            },
+            "probability": 1
+          }
+        ]
+      },
+      "minecraft:custom_name": "{\"text\":\"Enchanted Diamond Apple\",\"color\":\"light_purple\",\"italic\":false}"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s diamond[custom_name='{"color":"light_purple","italic":false,"text":"Enchanted Diamond Apple"}',rarity="epic",enchantment_glint_override=true,food={nutrition:1,saturation:1,can_always_eat:true,eat_seconds:2,effects:[{effect:{id:"minecraft:absorption",amplifier:155,duration:-1,show_particles:0b,show_icon:0b,ambient:1b},probability:1}]}] 1
