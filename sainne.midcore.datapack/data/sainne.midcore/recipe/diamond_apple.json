@@ -1,43 +1,51 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "DDD",
-    "DAD",
-    "DDD"
+    "DnD",
+    "NAN",
+    "DND"
   ],
   "key": {
-    "D": {
-      "item": "minecraft:diamond_block"
-    },
-    "A": {
-      "item": "minecraft:enchanted_golden_apple"
-    }
+    "D": [
+      "minecraft:diamond_block"
+    ],
+    "A": [
+      "minecraft:enchanted_golden_apple"
+    ],
+    "N": [
+      "minecraft:netherite_block"
+    ],
+    "n": [
+      "minecraft:nether_star"
+    ]
   },
   "result": {
     "id": "minecraft:diamond",
-    "count": 1,
     "components": {
-      "minecraft:enchantment_glint_override": true,
-      "minecraft:food": {
-        "nutrition": 0,
-        "saturation": 0,
-        "can_always_eat": true,
-        "eat_seconds": 2,
-        "effects": [
+      "minecraft:custom_name": "{\"text\":\"Enchanted Diamond Apple\",\"color\":\"light_purple\",\"italic\":false}",
+      "minecraft:consumable": {
+        "consume_seconds": 2,
+        "animation": "eat",
+        "sound": {
+          "sound_id": "entity.generic.eat",
+          "range": 16
+        },
+        "has_consume_particles": true,
+        "on_consume_effects": [
           {
-            "effect": {
-              "id": "minecraft:absorption",
-              "amplifier": 155,
-              "duration": -1,
-              "ambient": true,
-              "show_particles": false,
-              "show_icon": false
-            },
-            "probability": 1
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 155,
+                "duration": -1
+              }
+            ]
           }
         ]
       },
-      "minecraft:custom_name": "{\"text\":\"Enchanted Diamond Apple\",\"color\":\"light_purple\",\"italic\":false}"
+      "minecraft:enchantment_glint_override": true
     }
   }
 }
